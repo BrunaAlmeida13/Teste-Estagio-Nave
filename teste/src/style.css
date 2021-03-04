@@ -9,5 +9,6 @@ button{
 
 section.sec{
     border-style: solid;
-    width: 500px;
+    width: 550px;
+    margin-bottom: 1px;
 }

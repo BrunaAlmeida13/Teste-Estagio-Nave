@@ -1,6 +1,6 @@
-function exercise05(){
-    let bt05 = document.querySelector('button#bt05')
-    let res05 = document.querySelector('div#res05')
+function exercise06(){
+    let bt06 = document.querySelector('button#bt06')
+    let res06 = document.querySelector('div#res06')
 
     const pessoa = [
         {id: 1, first_name: 'Juca', last_name: 'Da Silva', age: 42},
@@ -9,7 +9,7 @@ function exercise05(){
         {id: 4, first_name: 'Gabriel', last_name: 'Dorneles',  age: 21}
     ]
     
-    for(elementos in pessoa){
-        res05.innerHTML += `Olá, ${pessoa[elementos].first_name} ${pessoa[elementos].last_name}!<br>`
-    }
+    const somaIdades = pessoa.reduce((valorT, elem) => valorT + elem.age, 0)
+    
+    res06.innerHTML =  `Soma das idades: ${somaIdades}`
 }

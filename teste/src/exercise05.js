@@ -9,7 +9,7 @@ function exercise05(){
         {id: 4, first_name: 'Gabriel', last_name: 'Dorneles',  age: 21}
     ]
     
-    for(elementos in pessoa){
+    for(let elementos in pessoa){
         res05.innerHTML += `Olá, ${pessoa[elementos].first_name} ${pessoa[elementos].last_name}!<br>`
     }
 }

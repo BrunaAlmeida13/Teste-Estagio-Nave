@@ -5,6 +5,4 @@
 
 ### Instruções para execução do código:
 #### * Preencher as caixas de texto da questão 01
-#### * Da questão 02 até 10 apertar apenas o botão de execução do exercício
-
-Obs.: Eu não consegui desenvolver a questão 10 como pedido, então fiz da forma que eu sabia.
+#### * Da questão 02 até 10 apenas apertar o botão de execução do exercício

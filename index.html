@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste</title>
+	<meta charset="UTF-8" />
+	<script src="src/exercise01.js"></script>
+	<script src="src/exercise02.js"></script>
+	<script src="src/exercise03.js"></script>
+	<script src="src/exercise04.js"></script>
+	<script src="src/exercise05.js"></script>
+	<script src="src/exercise06.js"></script>
+	<script src="src/exercise07.js"></script>
+	<script src="src/exercise08.js"></script>
+	<script src="src/exercise09.js"></script>
+	<script src="src/exercise10.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/style.css" />
+</head>
+
+<body>
+	<header><h1>Teste para vaga de estagiário</h1></header>
+
+	<section class="sec">
+			<div>
+                <p> <strong>E.1</strong> Crie uma função que recebe duas strings e retorna a de maior comprimento.</p>
+                <table>
+                <tr>
+                        <td>Coloque uma palavra aqui:</td>
+                        <td><input type="text" name="string1" id="string1"/></td>
+                </tr>
+                <tr>
+                    <td>Agora uma segunda palavra:</td>
+                    <td><input type="text" name="string2" id="string2"/></td>
+                </tr>
+            </table>
+            <p>
+                <button onclick="exercise01()" id="bt01">
+                    Executar exercício 01
+                </button>
+            </p>
+		</div>
+        <div id="res01" class="resp"></div>
+	</section>
+		
+	<section class="sec">
+        <div>
+            <p> <strong>E.2</strong> Dado a seguinte string ‘teste 1 de 2 string 3’, substitua todas as ocorrências de números por $.</p>
+            <p>
+                <button onclick="exercise02()" id="bt02">
+                Executar exercício 02
+                </button>
+            </p>
+        </div>
+        <div id="res02" class="resp"></div>
+    </section>
+
+    <section class="sec">
+        <div>
+            <p> <strong>E.3</strong> Dado o objeto {4: ‘a’, 3: ‘e’, 1: ‘i’, 5: ‘s’} substitua os números na frase ‘T35t3 d3 35t4g1o’ conforme a sua respectiva letra.</p>
+            <p>
+                <button onclick="exercise03()" id="bt03">
+                Executar exercício 03
+                </button>
+            </p>
+        </div>
+        <div id="res03" class="resp"></div>
+    </section>
+	
+	<section class="sec"> 
+		<div>
+			<p> <strong>E.4</strong> Utilizando a api da viacep (https://viacep.com.br/) e o seu cep como entrada imprima o seu endereço no formato ‘ENDERECO, NUMERO, CIDADE/ESTADO’. Utilize a fetch API para realizar a requisição.</p>
+            <p>
+			<p><button onclick="exercise04()" id="bt04">
+			Executar exercício 04
+			</button></p>
+		</div>
+		<div id="res04" class="resp"></div>
+	</section>
+
+	<section class="sec">
+		<div>
+			<p><strong>E.5</strong> Imprima uma mensagem de saudação com o nome completo para cada um dos objetos.</p>
+			<p><button onclick="exercise05()" id="bt05">
+			Executar exercício 05
+			</button></p>
+		</div>
+		<div id="res05" class="resp"></div>
+	</section>
+
+	<section class="sec">
+		<div>
+			<p><strong>E.6</strong> Imprima a soma das idades (sugestão: utilizar o método reduce).</p>
+			<p><button onclick="exercise06()" id="bt06">
+			Executar exercício 06
+			</button></p>
+		</div>
+		<div id="res06" class="resp"></div>
+	</section>
+
+	<section class="sec">
+		<div>
+			<p><strong>E.7</strong> Encontre o primeiro objeto que possui uma pessoa com a idade menor que 25 e imprima seu nome. Caso não encontre, imprima que nenhum resultado foi encontrado.</p>
+			<p><button onclick="exercise07()" id="bt07">
+			Executar exercício 07
+			</button></p>
+		</div>
+		<div id="res07" class="resp"></div>
+	</section>
+
+	<section class="sec">
+		<div>
+			<p><strong>E.8</strong> Imprima todos os elementos em que a idade é menor que 30.</p>
+			<p><button onclick="exercise08()" id="bt08">
+			Executar exercício 08
+			</button></p>
+		</div>
+		<div id="res08" class="resp"></div>
+	</section>
+
+	<section class="sec">
+		<div>
+			<p><strong>E.9</strong> Ordene o array de forma decrescente por idade, em caso de empate o desempate é pelo id(em ordem crescente).</p>
+			<p><button onclick="exercise09()" id="bt09">
+			Executar exercício 09
+			</button></p>
+		</div>
+		<div id="res09" class="resp"></div>
+	</section>
+
+	<section class="sec">
+		<div>
+			<p><strong>E.10</strong> Faça uma função que receba 2 parâmetros: um array de movies e um array de actors. A função deve retornar um array de movies, onde cada movie possui a propriedade actors, que sera um array com os nomes dos atores. </p>
+			<p><button onclick="exercise10()" id="bt10">
+			Executar exercício 10
+			</button></p>
+		</div>
+		<div id="res10" class="resp"></div>
+	</section>
+	<footer><p id="footer">Feito por Bruna Almeida - 2021</p></footer>
+</body>
+</html>

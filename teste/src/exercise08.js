@@ -10,13 +10,13 @@ function exercise08(){
         {id: 4, first_name: 'Gabriel', last_name: 'Dorneles',  age: 21}
     ]
     
-    res08.innerHTML = 'Pessoas com idade menor que 30 anos:'
+    res08.innerHTML = 'Pessoas com idade menor que 30 anos:<br>'
     for(let elemento in pessoa){
         idade = pessoa[elemento].age
         let cond = idade < 30 ? true : false   
             if(cond == true){
                 nome = pessoa[elemento].first_name 
-                res08.innerHTML += `<p>${nome} tem ${idade} anos.</p>`
+                res08.innerHTML += `${nome} tem ${idade} anos.<br>`
             } 
     }
 }

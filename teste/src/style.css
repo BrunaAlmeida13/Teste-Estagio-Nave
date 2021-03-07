@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+
 button{
     width: 200px;
     height: 30px;
@@ -12,6 +13,7 @@ section.sec{
     width: 1480px;
     margin-bottom: 1px;
 }
+
 .resp{
     margin-left: 10px;
     margin-bottom: 5px;
@@ -21,4 +23,12 @@ p{
     text-align: justify;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+p#footer{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
 }
